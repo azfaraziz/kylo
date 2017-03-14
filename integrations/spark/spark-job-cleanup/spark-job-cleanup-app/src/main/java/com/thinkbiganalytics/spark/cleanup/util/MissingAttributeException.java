@@ -2,7 +2,7 @@ package com.thinkbiganalytics.spark.cleanup.util;
 
 /*-
  * #%L
- * kylo-spark-job-dataquality-app
+ * kylo-spark-job-cleanup-app
  * %%
  * Copyright (C) 2017 ThinkBig Analytics
  * %%
@@ -25,7 +25,7 @@ package com.thinkbiganalytics.spark.cleanup.util;
  */
 @SuppressWarnings("serial")
 public class MissingAttributeException extends Exception {
-    public MissingAttributeException(String message){
+    public MissingAttributeException(String message) {
         super(message);
     }
 }
